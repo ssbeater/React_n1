@@ -6,7 +6,9 @@ import { Button } from '@mui/material'
 import CopyRight from '../../components/pure/CopyRight';
 import MenuListItems from '../../components/pure/MenuListItems';
 import AsyncExample from '../../components/pure/asyncExample';
-import ObservableExample from '../../components/pure/observableExample';
+//import ObservableExample from '../../components/pure/observableExample';
+//import FetchExample from '../../components/pure/FetchExample';
+import ChuckJokes from '../../components/pure/ChuckJokes';
 
 const Dashboard = () => {
 
@@ -28,7 +30,11 @@ const Dashboard = () => {
             <Button variant="contained" onClick={logout}>Log out</Button>
             <MenuListItems list={list}/>
             <AsyncExample></AsyncExample>
+            {/**
             <ObservableExample></ObservableExample>
+            <FetchExample></FetchExample>
+            */}
+            <ChuckJokes></ChuckJokes>
             <CopyRight/>
         </div>
     );
